@@ -9,9 +9,9 @@
         <UserType ID="Item" ManuallySorted="true" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="[id]" Referenced="true">
             <Name QualifierID="std.lang.all">Item</Name>
             <Icon>H4sIAAAAAAAAAHP3dLOwTBRgEGD4zgACaTPPzASCM/+BcOb/mWln0v7//5+Wlvb/TNqZmcb/Z878f+YMUAXDf4b/qIBhFIyCIQ4Uf7IwMjDwMeiAOKA8wcARzyDLIeOxYcHBZg52LoEJAQsbGJnFlGI4Nia5tLHIR93pCFzQwMxuxsfAqZDcwKCg2GQTGfTw5GTt+G1ffhgdaJjFmGYlEPA5zXeuTfyvKZECDA2TnXuVTKqCM53Z/eab8XAwWAMAeUXbfYIDAAA=</Icon>
-            <UserTypeLink UserTypeID="Family"></UserTypeLink>
             <UserTypeLink UserTypeID="Leaf"></UserTypeLink>
             <UserTypeLink UserTypeID="Rejected_Items"></UserTypeLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
             <UserTypeLink UserTypeID="DiscontinuedProducts"></UserTypeLink>
             <UserTypeLink UserTypeID="ItemSwap"></UserTypeLink>
             <UserTypeLink UserTypeID="ProductRoot"></UserTypeLink>
