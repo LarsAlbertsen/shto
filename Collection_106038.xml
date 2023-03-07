@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <CollectionList>
-        <Collection ID="106038" QueryURL="step://search?args0.0=IncludeDataContainers%3dno%2csearchString%3dELFR+Attr+3%c2%a0%28ELFRAttr3%29+%253D+1%2cRegExp%3dno%2cMatchCase%3dno%2cIncludeInheritedValues%3dno%2cRecycleBinOnly%3dno&amp;search0.0=ValueCriteria">
-            <Name>ELFRTestCollID</Name>
-        </Collection>
-    </CollectionList>
-</STEP-ProductInformation>

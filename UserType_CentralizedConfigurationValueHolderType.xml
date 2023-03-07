@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <UserTypes>
-        <UserType ID="CentralizedConfigurationValueHolderType" IDPattern="[id]">
-            <Name>Centralized Configuration Value Holder Type</Name>
-            <UserTypeLink UserTypeID="ConfigurationSystem"></UserTypeLink>
-        </UserType>
-    </UserTypes>
-</STEP-ProductInformation>

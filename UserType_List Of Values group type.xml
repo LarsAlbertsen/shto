@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <UserTypes>
-        <UserType ID="List Of Values group type" Referenced="true">
-            <Name>List Of Values Group Type</Name>
-            <UserTypeLink UserTypeID="List Of Values group type"></UserTypeLink>
-        </UserType>
-    </UserTypes>
-</STEP-ProductInformation>
