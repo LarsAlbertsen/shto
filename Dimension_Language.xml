@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <DimensionList>
+        <Dimension ID="Language">
+            <Name>Language</Name>
+            <DimensionPoint ID="Danish">
+                <Name>Danish</Name>
+                <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            </DimensionPoint>
+            <DimensionPoint ID="German">
+                <Name>German</Name>
+                <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            </DimensionPoint>
+            <DimensionPoint ID="en-US" DictionaryID="en_US" GDSNLanguageID="en">
+                <Name>English</Name>
+                <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            </DimensionPoint>
+            <DimensionPoint ID="std.lang.all" DictionaryID="en_US">
+                <Name>Language Root</Name>
+            </DimensionPoint>
+        </Dimension>
+    </DimensionList>
+</STEP-ProductInformation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <CollectionList>
+        <Collection ID="106988" QueryURL="step://search?args0.0=searchString%3dOutboundToTransfer%2cuniqueKey%3dIDKey&amp;args0.1=nodetype%3dOutBoundIntegrationEndpoint%2cobjecttype%3dOutboundEndpoint+user-type+root&amp;search0.0=IDListCriteria&amp;search0.1=ObjectTypeCriteria">
+            <Name>GIT_Outbound</Name>
+        </Collection>
+    </CollectionList>
+</STEP-ProductInformation>

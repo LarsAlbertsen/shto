@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <CrossReferenceTypes>
+        <ProductCrossReferenceType ID="Accessory-Display" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name>Accessory-Display</Name>
+            <MetaData>
+                <Value Derived="true" AttributeID="GetCompleteness">0</Value>
+            </MetaData>
+            <AttributeLink AttributeID="GetCompleteness"></AttributeLink>
+            <AttributeGroupLink AttributeGroupID="Product References"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Family"></UserTypeLink>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <UserTypeLink UserTypeID="Variant"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="Family"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Item"></TargetUserTypeLink>
+            <TargetUserTypeLink UserTypeID="Variant"></TargetUserTypeLink>
+        </ProductCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <STEPWorkflows>
+        <STEPWorkflow ID="CreateItem"><!-- Definition:
+<scxml name="CreateItem" initial="Initial" version="0.9">
+  <assignee id="$current" type="user"/>
+  <datamodel>
+    <data id="IsActive" attribute="IsActive"/>
+    <data id="SubmitMessage"/>
+  </datamodel>
+  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=140.0 h=238.0  </editorLayout>
+  <final id="Final" discontinued="false">
+    <editorLayout>   node-size-and-position x=20.0 y=193.0 w=100.0 h=25.0  </editorLayout>
+    <onentry businessactionid="RemoveFromWorkflow"/>
+  </final>
+  <state id="Enrich" discontinued="false">
+    <transition target="Final"/>
+    <editorLayout>   node-size-and-position x=30.0 y=140.0 w=100.0 h=25.0  </editorLayout>
+  </state>
+  <state id="Initial" discontinued="false">
+    <transition businessconditionid="con-7b96603d-4e10-4ea0-9f2e-2d264a78ca97" target="Enrich"/>
+    <editorLayout>   node-size-and-position x=20.0 y=43.0 w=100.0 h=25.0  </editorLayout>
+    <onentry businessactionid="ELFRLog"/>
+  </state>
+</scxml>
+<workflowViews>
+  <restriction displaySequence="0" includeSubgroups="false">
+    <mapping displaySequence="0" stateID="Enrich" viewID="MainView"/>
+    <mapping displaySequence="1" stateID="Initial" viewID="MainView"/>
+    <mapping displaySequence="2" stateID="Final" viewID="MainView"/>
+  </restriction>
+  <view id="MainView" automaticSort="false" defaultSortColumn="0">
+    <aspect id="id"/>
+    <aspect id="name"/>
+    <column name="IsActive" mandatory="false" readOnly="false">
+      <plugin pluginID="WorkflowVariable">
+        <parameter id="Variable" value="IsActive"/>
+      </plugin>
+    </column>
+    <column name="Message" mandatory="false" readOnly="false">
+      <plugin pluginID="WorkflowVariable">
+        <parameter id="Variable" value="SubmitMessage"/>
+      </plugin>
+    </column>
+  </view>
+</workflowViews> -->
+            <BusinessRuleLink ID="ELFRLog"></BusinessRuleLink>
+            <BusinessRuleLink ID="RemoveFromWorkflow"></BusinessRuleLink>
+            <SetupGroupLink SetupGroupID="Workflows"></SetupGroupLink>
+            <Name>Create Item</Name>
+            <ValidUserTypeLink UserTypeID="Family"></ValidUserTypeLink>
+            <ValidUserTypeLink UserTypeID="Item"></ValidUserTypeLink>
+            <Configuration>H4sIAAAAAAAAAM1VwVLbMBC98xWqplfHTgKEMHaYDm1mMgNDBwo9K/bGaCpLriQnpF/flWSbAA3QnnqJInv3vX1P2jVrrFpIbjmzcCXPNeCarZgwkJpacDuDB8gbCze55rW94BW3UHzVfM0FlGAyq5suUnBjQV7JRVUrbUHf1sVzMJM/VCJL/UK4pxUZDfyCEskqyGgoYmGhomQN2nAlM5oMppRgljQZvbe2Po3jzWYz2IwHSpfxKEmO4mQSe2A6Sz9EESFEqgIiw39BxGQR1cogjZLkIUsGCdn63002PHTrfTYan+BKomh2QFIsnFWYLXATdoQXGb1plqj/EoxhJSBN7N7MDvoYZq3mS3QLNZlPueVroD6x3/U5YW05kJEZw0sJ4MM/5o3WIC0ldlsjWGNAu9QuyGcYiy6RgptcSctlA5jovW4pW1PfNGMU3DgcBzuS1o6j3g2SKonF6C1ZNoZLpz53uY7ly8X8+kKVrrg2KNhhNZMtQ5eEZRa8y8NNNFlOj4+TcREdwjDBH5ZE09UIolExOj5kk5OcTSfoANMlWGSSmuf3jugR29nobXiPIT3AG36Mgx/hXuwxZEdeV9+cS+/23vJWLmB/eV3++05rOP2n47qGSq1hrlX1XekfK6E2T04ujX2Rvm7XSbO2bdccNll65pq2b8jhIKEEZK4KLsuM3n6bRyeUoFxZMIGIGd2CoWeIJc3odNPS3SGSCX18is+f9LKxfKkGuaqoU4E6HK335pJx6TIpKWDFGmFvcMCcK9FUbjJQwnCIVczy3D3vXA0gHoiZGnLroXhB4z+/ccPnybvcE7RD6bGfcToVV1Js+9OrnGSr9PYls8epRVNyScKy+JzRzvs7pjlbiucJIYlp5MUp6mvrI8maiWa3nPgZWRxodmTEQcc+Yd00+z90PZ2wfykujd2Naf9rMDiM/c3HL00umgIQvNSqqU0vEbuxFmx7Az8bvMrgLtMOeMXqGi838T3sBLYjhDgat9+5ly+B4teQ+k/eO6CGr0OFwfEeoFEHlMY77rhuf9Gi+DC0/m+oGgzvIAgAAA==</Configuration>
+        </STEPWorkflow>
+    </STEPWorkflows>
+</STEP-ProductInformation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Keys>
+        <Key ID="ItemKey2" State="Active">
+            <Name>ItemKey2</Name>
+            <KeyFormula>value('ItemKey')</KeyFormula>
+            <UserTypeLink UserTypeID="Item"></UserTypeLink>
+            <AttributeLink AttributeID="ItemKey"></AttributeLink>
+        </Key>
+    </Keys>
+</STEP-ProductInformation>

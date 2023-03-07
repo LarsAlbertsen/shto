@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <TagList>
+        <CharacterTag ID="StartDenominator" ParentID="Character tag root" Tag="StartDenominator" GuiRendering="|">
+            <Configuration>H4sIAAAAAAAAAAsuSSwqcUnNy8/NzEssyS/S0TVER57peflFqTDKJzM9o8S9KLFSpzgzLz0ntSQ/T8cACPNKc3J0gLQOAFktMwBSAAAA</Configuration>
+            <Formatting Format="InDesign">&lt;cPosition:Subscript&gt;&lt;ck:&gt;</Formatting>
+        </CharacterTag>
+    </TagList>
+</STEP-ProductInformation>
