@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
-    <Qualifiers>
-        <Qualifier ID="en-US">
-            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
-        </Qualifier>
-    </Qualifiers>
     <AttributeGroupList>
         <AttributeGroup ID="_LAAL Attributes" ShowInWorkbench="true" ManuallySorted="false" Referenced="true">
-            <Name QualifierID="en-US">_LAAL Attributes</Name>
+            <Name>_LAAL Attributes</Name>
             <MetaData>
                 <Value Derived="true" AttributeID="GetCompleteness">0</Value>
             </MetaData>
